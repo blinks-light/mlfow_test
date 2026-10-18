@@ -1,0 +1,29 @@
+# ---- MLflow 实验产物（不提交，走 MLflow/DagsHub 远程 tracking）----
+mlruns/
+mlartifacts/
+mlflow.db
+mlflow.db-*
+*.db-journal
+*.db-wal
+*.db-shm
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- 讲义原件（可选提交；如需保留请删掉这一行）----
+# 15-MLFlow.pdf
